@@ -1,3 +1,5 @@
+# ecometry-POSys-step3-POMaker
+
 GUI for accessing the recommended buy reports database for managers to pre-approve inventory purchases for the automated PO system extension for Red Prairie Ecometry
 
 The entire Purchase Order automation system for the Red Prairie Ecometry ecommerce platform is composed of these three programs:
