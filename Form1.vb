@@ -410,8 +410,8 @@ Public Class VendorItems
          Dim tmpResult As New System.Text.StringBuilder
          tmpResult.Append("<p>Hello")
          If Vendor.ContactFullName.Length > 3 Then tmpResult.Append(" " & Vendor.ContactFullName)
-         tmpResult.Append(",</p><p>Attached is a new purchase order, Price Point PO " & oPONumber & "</p>")
-         If Not String.IsNullOrEmpty(oRequestText.Text.Trim) Then tmpResult.Append("<p>" & oRequestText.Text.Trim & "</p>")
+            tmpResult.Append(",</p><p>Attached is a new purchase order, ecommerce company PO " & oPONumber & "</p>")
+            If Not String.IsNullOrEmpty(oRequestText.Text.Trim) Then tmpResult.Append("<p>" & oRequestText.Text.Trim & "</p>")
          If oVendor.POCommentsHTML.Length > 3 Then tmpResult.Append("<p>The payment terms are as follow: <br><br>" & oVendor.POCommentsHTML & "<br>")
          tmpResult.Append("</p><p>Please open the attached spreadsheet to confirm pricing, availability and delivery date as soon as possible. " & _
                           "<u>Reply to this email with confirmation of receipt.</u>  <u>If any changes need to be made to the order, please note them in the attached spreadsheet.</u> " & _
