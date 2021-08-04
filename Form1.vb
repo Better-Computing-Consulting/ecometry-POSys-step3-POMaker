@@ -169,8 +169,8 @@ Public Class Form1
          .ToTextBox.Text = CurrentVendorItems.Vendor.Email
          .BccTextBox.Text = User.Email
          .AttachmentLink.Text = FileName
-         .SubjectTextBox.Text = "PRICE POINT PO " & FileName.Substring(2, 9)
-         .HTMLPreviewWebBrowser.DocumentText = CurrentVendorItems.EmailBodyInHTML
+            .SubjectTextBox.Text = "Ecommerce company PO " & FileName.Substring(2, 9)
+            .HTMLPreviewWebBrowser.DocumentText = CurrentVendorItems.EmailBodyInHTML
          result = .ShowDialog
       End With
       If result = DialogResult.OK Then CurrentVendorItems.UpdateLastEmailDate()

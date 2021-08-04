@@ -9,8 +9,8 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("POMaker")> 
-<Assembly: AssemblyDescription("To Automate Purchase Order Entry")> 
-<Assembly: AssemblyCompany("Price Point Mail Order")> 
+<Assembly: AssemblyDescription("To Automate Purchase Order Entry")>
+<Assembly: AssemblyCompany("ecommerce company Mail Order")>
 <Assembly: AssemblyProduct("POMaker")> 
 <Assembly: AssemblyCopyright("Copyright ©  2012")> 
 <Assembly: AssemblyTrademark("")> 
